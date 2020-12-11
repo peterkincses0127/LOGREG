@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/edittextRegJelszo"
         android:hint="Jelszó"
+        android:password="true"
 
 
         />

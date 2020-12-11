@@ -4,37 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".RegisterActivity"
     android:orientation="vertical">
-
     <EditText
-        android:id="@+id/edittextFelhasznalo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Felhasznlónév"
+        android:id="@+id/edittextRegEmail"
+        android:hint="Email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextRegFelhasznalo"
+        android:hint="Felhasználó"
+
 
         />
-
     <EditText
-        android:id="@+id/edittextJelszo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/edittextRegJelszo"
         android:hint="Jelszó"
 
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextRegTeljesnev"
+        android:hint="Teljesnév"
+
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bejelentkezés"
-        android:id="@+id/buttonBejelentkezes"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegRegisztracio"
         android:text="Regisztráció"
-        android:id="@+id/buttonRegisztracio"
-
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegVissza"
+        android:text="Jelszó"
 
         />
+
 
 </LinearLayout>

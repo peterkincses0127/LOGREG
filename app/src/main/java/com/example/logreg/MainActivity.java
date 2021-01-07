@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent bejelentkezes = new Intent(MainActivity.this,LoggedActivity.class);
                 startActivity(bejelentkezes);
                 finish();
+
+
+
             }
         });
 
